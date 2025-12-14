@@ -95,7 +95,7 @@ export function HeroSection() {
             className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-display font-bold mb-6"
           >
             Hi, I'm{' '}
-            <span className="gradient-text">Your Name</span>
+            <span className="gradient-text">Sharmeely</span>
           </motion.h1>
 
           {/* Role */}
@@ -156,9 +156,9 @@ export function HeroSection() {
             className="flex items-center justify-center gap-4"
           >
             {[
-              { icon: Github, href: 'https://github.com', label: 'GitHub' },
-              { icon: Linkedin, href: 'https://linkedin.com', label: 'LinkedIn' },
-              { icon: Code2, href: 'https://leetcode.com', label: 'LeetCode' },
+              { icon: Github, href: 'https://github.com/sharmeely0402', label: 'GitHub' },
+              { icon: Linkedin, href: 'www.linkedin.com/in/s-sharmeely-10b1892a9', label: 'LinkedIn' },
+              { icon: Code2, href: 'https://leetcode.com/u/b0nKBx1SiN/', label: 'LeetCode' },
             ].map((social) => (
               <motion.a
                 key={social.label}
