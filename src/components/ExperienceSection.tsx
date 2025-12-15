@@ -4,14 +4,7 @@ import { useRef } from 'react';
 import { Briefcase, Award, Users, Calendar } from 'lucide-react';
 
 const experiences = [
-  {
-    type: 'work',
-    title: 'Software Development Intern',
-    organization: 'Tech Company Name',
-    period: 'Jun 2024 - Aug 2024',
-    description: 'Developed and maintained web applications using modern technologies. Collaborated with the team on various projects.',
-    highlights: ['Built RESTful APIs', 'Optimized database queries', 'Implemented new features'],
-  },
+
   {
     type: 'work',
     title: 'Web Development Intern',
@@ -25,22 +18,17 @@ const experiences = [
 const achievements = [
   {
     icon: Award,
-    title: 'Technical Lead',
-    organization: 'Coding Club',
-    description: 'Led a team of 15+ members in organizing coding events and workshops.',
+    title: 'Event Manager',
+    organization: 'Women in Open Source Club',
+    description: 'Managed club events and contributed to marketing efforts to promote event visibility and engagement.',
   },
   {
     icon: Users,
-    title: 'Core Committee Member',
-    organization: 'Tech Fest',
-    description: 'Organized technical events with 500+ participants from various colleges.',
+    title: 'Mess Member',
+    organization: 'Hostel Mess',
+    description: 'Supported mess management operations through coordination, planning, and member communication.',
   },
-  {
-    icon: Award,
-    title: 'Hackathon Winner',
-    organization: 'National Level Competition',
-    description: 'Won first place for developing an innovative solution to a real-world problem.',
-  },
+ 
 ];
 
 export function ExperienceSection() {
