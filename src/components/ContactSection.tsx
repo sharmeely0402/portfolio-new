@@ -10,27 +10,27 @@ const contactInfo = [
   {
     icon: Mail,
     label: 'Email',
-    value: 'your.email@example.com',
-    href: 'mailto:your.email@example.com',
+    value: 's.sharmeelykhairunnissa@gmail.com',
+    href: 'mailto:s.sharmeelykhairunnissa@gmail.com',
   },
   {
     icon: MapPin,
     label: 'Location',
-    value: 'Your City, Country',
+    value: 'Vapi, Gujarat,India',
     href: null,
   },
   {
     icon: Phone,
     label: 'Phone',
-    value: '+1 234 567 890',
-    href: 'tel:+1234567890',
+    value: '+91 8490910402',
+    href: 'tel:+91 8490910402',
   },
 ];
 
 const socialLinks = [
-  { icon: Github, label: 'GitHub', href: 'https://github.com' },
-  { icon: Linkedin, label: 'LinkedIn', href: 'https://linkedin.com' },
-  { icon: Code2, label: 'LeetCode', href: 'https://leetcode.com' },
+  { icon: Github, label: 'GitHub', href: 'https://github.com/sharmeely0402' },
+  { icon: Linkedin, label: 'LinkedIn', href: 'https://www.linkedin.com/in/s-sharmeely-10b1892a9/' },
+  { icon: Code2, label: 'LeetCode', href: 'https://leetcode.com/u/b0nKBx1SiN/' },
 ];
 
 export function ContactSection() {
