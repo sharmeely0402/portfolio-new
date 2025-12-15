@@ -7,18 +7,18 @@ const skillCategories = [
     title: 'Programming Languages',
     skills: [
       { name: 'Java', level: 90 },
-      { name: 'Python', level: 85 },
-      { name: 'JavaScript', level: 80 },
+      { name: 'Python', level: 70 },
+      { name: 'JavaScript', level: 40 },
       { name: 'PHP', level: 75 },
     ],
   },
   {
     title: 'Web Technologies',
     skills: [
-      { name: 'HTML/CSS', level: 95 },
-      { name: 'Bootstrap', level: 85 },
-      { name: 'React', level: 70 },
-      { name: 'Tailwind CSS', level: 80 },
+      { name: 'HTML', level: 95 },
+      { name: 'Bootstrap', level: 95 },
+      { name: 'CSS', level: 70 },
+      { name: 'Tailwind CSS', level: 60 },
     ],
   },
   {
@@ -27,13 +27,13 @@ const skillCategories = [
       { name: 'MySQL', level: 85 },
       { name: 'Git/GitHub', level: 88 },
       { name: 'Power BI', level: 75 },
-      { name: 'Streamlit', level: 70 },
+      { name: 'Streamlit', level: 50 },
     ],
   },
 ];
 
 const techIcons = [
-  'Java', 'Python', 'JavaScript', 'PHP', 'HTML', 'CSS', 'React', 'MySQL', 'Git', 'Bootstrap'
+  'Java', 'Python', 'JavaScript', 'PHP', 'HTML', 'CSS', 'MySQL', 'Git', 'Bootstrap'
 ];
 
 export function SkillsSection() {
