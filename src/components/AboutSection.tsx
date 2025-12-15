@@ -74,6 +74,7 @@ export function AboutSection() {
                     <div className="text-center p-8">
                       <div className="w-32 h-32 mx-auto mb-4 rounded-full bg-gradient-to-br from-primary to-accent flex items-center justify-center">
                         <span className="text-4xl font-display font-bold text-primary-foreground">YN</span>
+                        <img> </img>
                       </div>
                       <p className="text-muted-foreground text-sm">Your photo here</p>
                     </div>
