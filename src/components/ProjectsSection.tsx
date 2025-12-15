@@ -15,17 +15,17 @@ const projects = [
     image: '',
     tags: ['PHP', 'MySQL', 'Bootstrap'],
     category: 'PHP',
-    github: 'https://github.com',
+    github: 'hhttps://github.com/sharmeely0402/e-commerce-e-shop',
     demo: 'https://demo.com',
   },
   {
     id: 2,
-    title: 'AI Image Classifier',
+    title: 'Anime recomendation System',
     description: 'Machine learning project that classifies images using deep learning techniques with high accuracy.',
     image: '',
     tags: ['Python', 'TensorFlow', 'Streamlit'],
     category: 'Python',
-    github: 'https://github.com',
+    github: 'https://github.com/sharmeely0402/anime_recomendation',
     demo: 'https://demo.com',
   },
   {
@@ -50,24 +50,15 @@ const projects = [
   },
   {
     id: 5,
-    title: 'Task Management App',
-    description: 'A productivity app for managing tasks with features like categories, deadlines, and progress tracking.',
+    title: 'flower e commerce website',
+    description: 'A responsive front-end flower e-commerce website built using HTML, CSS, and JavaScript, showcasing a modern and user-friendly shopping interface.',
     image: '',
-    tags: ['Python', 'Flask', 'SQLite'],
-    category: 'Python',
-    github: 'https://github.com',
+    tags: ['HTML','CSS','Bootstrap','Javascript'],
+    category: 'Web',
+    github: 'https://github.com/sharmeely0402/flower-e-commerce-website',
     demo: 'https://demo.com',
   },
-  {
-    id: 6,
-    title: 'Blog Platform',
-    description: 'Content management system for creating and managing blog posts with rich text editing.',
-    image: '',
-    tags: ['PHP', 'MySQL', 'JavaScript'],
-    category: 'PHP',
-    github: 'https://github.com',
-    demo: 'https://demo.com',
-  },
+ 
 ];
 
 export function ProjectsSection() {
