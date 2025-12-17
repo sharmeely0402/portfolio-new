@@ -22,15 +22,15 @@ export function Footer() {
             <p className="text-sm text-muted-foreground flex items-center gap-1">
               © {currentYear} Made with{' '}
               <Heart className="h-4 w-4 text-destructive fill-destructive" />
-              by Your Name
+               By Sharmeely
             </p>
 
             {/* Social links */}
             <div className="flex items-center gap-4">
               {[
-                { icon: Github, href: 'https://github.com', label: 'GitHub' },
-                { icon: Linkedin, href: 'https://linkedin.com', label: 'LinkedIn' },
-                { icon: Code2, href: 'https://leetcode.com', label: 'LeetCode' },
+                { icon: Github, href: 'https://github.com/sharmeely0402', label: 'GitHub' },
+                { icon: Linkedin, href: 'https://www.linkedin.com/in/s-sharmeely-10b1892a9/', label: 'LinkedIn' },
+                { icon: Code2, href: 'https://leetcode.com/u/b0nKBx1SiN/', label: 'LeetCode' },
               ].map((social) => (
                 <motion.a
                   key={social.label}

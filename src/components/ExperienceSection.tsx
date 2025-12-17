@@ -8,8 +8,8 @@ const experiences = [
   {
     type: 'work',
     title: 'Web Development Intern',
-    organization: 'Startup Name',
-    period: 'Jan 2024 - Mar 2024',
+    organization: 'Enjay IT Solutions',
+    period: 'June 2024 - July 2024',
     description: 'Worked on front-end development and UI/UX improvements for client projects.',
     highlights: ['Responsive design', 'Performance optimization', 'Cross-browser compatibility'],
   },

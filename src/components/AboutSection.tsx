@@ -68,22 +68,30 @@ export function AboutSection() {
                 <div className="absolute inset-0 bg-gradient-to-br from-primary to-accent rounded-3xl transform -rotate-3 opacity-10" />
                 
                 {/* Main image container */}
-                <div className="relative h-full glass-card rounded-3xl overflow-hidden">
-                  <div className="absolute inset-0 bg-gradient-to-br from-primary/20 to-accent/20" />
-                  <div className="absolute inset-0 flex items-center justify-center">
-                    <div className="text-center p-8">
-                      <div className="w-32 h-32 mx-auto mb-4 rounded-full bg-gradient-to-br from-primary to-accent flex items-center justify-center">
-                        <span className="text-4xl font-display font-bold text-primary-foreground">YN</span>
-<img
-          src="/MYIMAGE.jpeg"   // put image in public folder
+              <div className="relative h-full glass-card rounded-3xl overflow-hidden">
+  <div className="absolute inset-0 bg-gradient-to-br from-primary/20 to-accent/20" />
+
+  <div className="absolute inset-0 flex items-center justify-center">
+    <div className="text-center p-10">
+
+      {/* Profile Image */}
+      <div className="w-48 h-48 mx-auto mb-6 rounded-full bg-gradient-to-br from-primary to-accent p-1 shadow-2xl">
+        <img
+          src="/MYIMAGE.jpeg"
           alt="Profile"
-          className="w-full h-full object-cover rounded-full"
+          className="w-full h-full object-cover rounded-full bg-background"
         />
-                      </div>
-                      <p className="text-muted-foreground text-sm">Your photo here</p>
-                    </div>
-                  </div>
-                </div>
+      </div>
+
+      {/* Caption */}
+     
+     
+
+    </div>
+  </div>
+</div>
+
+
 
                 {/* Floating elements */}
                 <motion.div
